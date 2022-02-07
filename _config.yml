@@ -1,2 +1,6 @@
 theme: jekyll-theme-slate
 title: Deloitte Integration Services
+
+layout: page
+title: "AzureFramework"
+permalink: /doc/AzureFramework
