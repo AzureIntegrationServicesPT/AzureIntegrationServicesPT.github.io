@@ -2,3 +2,6 @@
 
 In this Documentation you can find Azure FrameWork Documentation and Deloitte's Custom Filters for DotLiquid
 
+
+[test](./AzureFramework.html)
+
