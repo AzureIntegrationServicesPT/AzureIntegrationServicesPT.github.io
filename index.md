@@ -1,7 +1,7 @@
 ## Welcome to Deloitte Portugal Azure Integration Services Documentation
 
-In this Documentation you can find Azure FrameWork Documentation and Deloitte's Custom Filters for DotLiquid
+In this Documentation you can find the documentation about several Azure Projects from Integration Services team from Deloitte Portugal.
 
-
-[test](./AzureFramework.html)
+- [AzureFramework](./AzureFramework.html)
+- [DotLiquid Custom Filters](./CustomFilters.html)
 
