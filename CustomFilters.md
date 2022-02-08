@@ -11,21 +11,21 @@ It also needs 3 headers:
 Filters are C# Functions registered and called from the Liquid Template. The Default Filters are described in the original documentation of DotLiquid.
 The following filters goals are to advance the capabilities of Liquid to make it a powerful tool to Payload Transformation:
 
--json
--json_cur_object
--custom_date_time_format
--compare_letters
--look_up
--liquid_contains
--data_type
--int
--is_loop
--clear_nulls
--create_hash
--create_list
--add_to_list
--remove_from_list
--log
--remove_property
--add_property
--set_property
+- json
+- json_cur_object
+- custom_date_time_format
+- compare_letters
+- look_up
+- liquid_contains
+- data_type
+- int
+- is_loop
+- clear_nulls
+- create_hash
+- create_list
+- add_to_list
+- remove_from_list
+- log
+- remove_property
+- add_property
+- set_property
