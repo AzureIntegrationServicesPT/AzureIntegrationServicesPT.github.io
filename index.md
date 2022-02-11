@@ -1,6 +1,6 @@
 ## Welcome to Deloitte Portugal Azure Integration Services Documentation
 
-In this Documentation you can find the documentation about several Azure Projects from Integration Services team from Deloitte Portugal.
+In this files you can find the documentation about several Azure Projects from Integration Services team from Deloitte Portugal.
 
 - [Liquid](./CustomFilters.html)
 - Reference Data (soon)
