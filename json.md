@@ -18,13 +18,16 @@ Input:
 ```
 
 Liquid:
+{% raw %}
 ```
 {
-	"Final":\{{content.Test | json\}},
-	"ChildProperty": \{{content.Test.Child2 | json \}},
-	"ParentFinal": \{{content.Parent | json \}}
+	"Final":{{content.Test | json}},
+	"ChildProperty": {{content.Test.Child2 | json }},
+	"ParentFinal": {{content.Parent | json }}
 }
 ```
+{% endraw %}
+
 
 Output:
 ```json
