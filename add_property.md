@@ -39,7 +39,7 @@ Input JSON:
 ```
 
 Liquid:
-```liquid
+```
 {
 	{% assign Test = content.Test | add_property: "ADDED_PROPERTY",content,Parent %}
 	{% assign FArray = content.TestArray | add_property: "ADDED_PROPERTY", content.Parent , 0 %}

@@ -16,7 +16,7 @@ Input:
 ```
 
 Liquid:
-```liquid
+```
 {
 	{%assign testArray= null | create_list %}
 	{%assign testArray = testArray | add_to_list: content %}

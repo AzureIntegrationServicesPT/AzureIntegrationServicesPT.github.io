@@ -22,7 +22,7 @@ Input:
 ```
 
 Liquid:
-```liquid
+```
 {
 	{%assign FArray= content | clear_nulls %}
 	{{FArray | json}}

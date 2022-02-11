@@ -14,7 +14,7 @@ Input:
 ```
 
 Liquid:
-```liquid
+```
 {
 	{%assign FArray= content.TestArray | remove_from_list: "Child2" %}
 	"Final":{{FArray | json}}

@@ -16,7 +16,7 @@ Input:
 ```
 
 Liquid:
-```liquid
+```
 {
 	{%assign testvar = content.Test | data_type %}
 	{%assign testvar2 = content.Test.test2 | data_type %}

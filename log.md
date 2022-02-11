@@ -18,7 +18,7 @@ Input:
 ```
 
 Liquid:
-```liquid
+```
 {
 	"Final":{{content.Test | json}},
 	{{Content.Test.Child2 | log }}

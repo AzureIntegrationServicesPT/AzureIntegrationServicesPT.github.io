@@ -14,7 +14,7 @@ Input:
 ```
 
 Liquid:
-```liquid
+```
 {
 	{%assign test= null | create_hash %}
 	{%assign test = test | add_property: "final_output", "hello world!" %}

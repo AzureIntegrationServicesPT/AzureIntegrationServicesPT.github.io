@@ -21,7 +21,7 @@ Input:
 ```
 
 Liquid:
-```liquid
+```
 {
 	{%assign test = content.CaseNoP | compare_letters: content.noCaseP %}
 	"Final":{{test | json}}

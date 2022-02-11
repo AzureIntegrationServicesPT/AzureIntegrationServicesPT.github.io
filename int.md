@@ -14,7 +14,7 @@ Input:
 ```
 
 Liquid:
-```liquid
+```
 {
 
 	"Final1":{{content.Test | int | plus: 1 | json}},
