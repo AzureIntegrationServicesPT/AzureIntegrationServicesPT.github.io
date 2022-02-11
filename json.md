@@ -18,6 +18,7 @@ Input:
 ```
 
 Liquid:
+{%comment%}
 ```
 {
 	"Final":{{content.Test | json}},
@@ -25,6 +26,7 @@ Liquid:
 	"ParentFinal": {{content.Parent | json }}
 }
 ```
+{%endcomment%}
 
 Output:
 ```json
