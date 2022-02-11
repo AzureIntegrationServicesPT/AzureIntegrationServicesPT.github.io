@@ -1,0 +1,28 @@
+[
+{% assign columns = null | create_list %}
+{% for row in content %}
+    {%comment%} Create List of Column names {%endcomment%}
+    {%-if forloop.first == true -%}
+        {%- for column in row -%}
+            {%comment%} Add to said list {%endcomment%}
+            {% assign columns = columns | add_to_list: column, false %}
+        {%endfor%}
+    {%else%}
+        {% if forloop.last == true %}
+            {%if row.size < columns.size %}
+                {% break %}
+            {%endif%}
+        {%endif%}
+        {
+        {%comment%} Initialize iterator at 0 {%endcomment%}
+        {%assign i = 0 %}
+
+        {%comment%} Create the Json Items for each Row {%endcomment%}
+        {%for column in row %}
+            "{{columns[i]}}": "{{column}}",
+            {% assign i = i | plus: 1 %}
+        {%endfor%}
+        },
+    {%endif%}
+{%endfor%}
+]
