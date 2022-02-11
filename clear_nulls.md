@@ -20,7 +20,6 @@ Input:
 	}
 }
 ```
-{% endraw %}
 Liquid:
 {% raw %}
 ```
@@ -29,6 +28,7 @@ Liquid:
 	{{FArray | json}}
 }
 ```
+{% endraw %}
 
 Output:
 ```json

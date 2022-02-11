@@ -32,6 +32,7 @@ Liquid:
 	"Final":{{content.ReferenceData.Data | look_up: content.Input.Data | json }}
 }
 ```
+{% endraw %}
 
 Output:
 ```json

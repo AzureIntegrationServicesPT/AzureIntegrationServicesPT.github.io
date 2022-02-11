@@ -19,7 +19,6 @@ Input:
 	"noCaseP":"João"
 }
 ```
-{% endraw %}
 Liquid:
 {% raw %}
 ```
@@ -28,6 +27,7 @@ Liquid:
 	"Final":{{test | json}}
 }
 ```
+{% endraw %}
 
 Output:
 ```json
