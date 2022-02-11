@@ -19,8 +19,9 @@ Input:
 	"noCaseP":"João"
 }
 ```
-
+{% endraw %}
 Liquid:
+{% raw %}
 ```
 {
 	{%assign test = content.CaseNoP | compare_letters: content.noCaseP %}

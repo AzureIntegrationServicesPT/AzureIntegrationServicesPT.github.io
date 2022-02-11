@@ -23,12 +23,14 @@ Input:
 ```
 
 Liquid:
+{% raw %}
 ```
 {
 	{%assign test= content.Date | custom_date_time_format: "dd.MM.yyyy", content.Time, "HH:mm:ss", "yyyy-MM-ddTHH:mm:ssZ" %}
 	"DateTime":{{test | json}}
 }
 ```
+{% endraw %}
 
 Output:
 ```json

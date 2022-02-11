@@ -20,12 +20,14 @@ Input:
 ```
 
 Liquid:
+{% raw %}
 ```
 {
 	{{content.Test | json_cur_object}},
 	"ChildProperty": "{{content.Test.Child2 | json_cur_object }}",
 }
 ```
+{% endraw %}
 
 Output:
 ```json

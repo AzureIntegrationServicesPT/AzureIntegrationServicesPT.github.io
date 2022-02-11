@@ -22,13 +22,14 @@ Input:
 ```
 
 Liquid:
+{% raw %}
 ```
 {
 	{%assign FArray= content.TestArray | add_to_list: content.Test %}
 	"Final":{{FArray | json}}
 }
 ```
-
+{% endraw %}
 Output:
 ```json
 {

@@ -18,12 +18,14 @@ Input:
 ```
 
 Liquid:
+{% raw %}
 ```
 {
 	"Final":{{content.Test | json}},
 	{{Content.Test.Child2 | log }}
 	{{Content.Test | json | log}}
 ```
+{% endraw %}
 
 Output:
 ```json

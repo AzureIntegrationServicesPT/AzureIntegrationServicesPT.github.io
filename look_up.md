@@ -26,6 +26,7 @@ Input:
 ```
 
 Liquid:
+{% raw %}
 ```
 {
 	"Final":{{content.ReferenceData.Data | look_up: content.Input.Data | json }}

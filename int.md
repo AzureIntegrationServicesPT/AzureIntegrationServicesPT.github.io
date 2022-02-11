@@ -14,6 +14,7 @@ Input:
 ```
 
 Liquid:
+{% raw %}
 ```
 {
 
@@ -22,6 +23,7 @@ Liquid:
 
 }
 ```
+{% endraw %}
 
 Output:
 ```json

@@ -39,6 +39,7 @@ Input JSON:
 ```
 
 Liquid:
+{% raw %}
 ```
 {
 	{% assign Test = content.Test | remove_property: "Child1" %}
@@ -47,6 +48,7 @@ Liquid:
 	"FinalArray":{{FArray | json}}
 }
 ```
+{% endraw %}
 
 Output JSON:
 ```json

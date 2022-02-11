@@ -14,6 +14,7 @@ Input:
 ```
 
 Liquid:
+{% raw %}
 ```
 {
 	{%assign test= null | create_hash %}
@@ -21,7 +22,7 @@ Liquid:
 	"Final":{{testArray | json}}
 }
 ```
-
+{% endraw %}
 Output:
 ```json
 {

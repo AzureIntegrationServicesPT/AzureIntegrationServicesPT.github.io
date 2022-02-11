@@ -14,12 +14,14 @@ Input:
 ```
 
 Liquid:
+{% raw %}
 ```
 {
 	{%assign FArray= content.TestArray | remove_from_list: "Child2" %}
 	"Final":{{FArray | json}}
 }
 ```
+{% endraw %}
 
 Output:
 ```json

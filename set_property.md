@@ -42,6 +42,7 @@ Input JSON:
 ```
 
 Liquid:
+{% raw %}
 ```
 {
 	{% assign Test = content.Test | set_property: "ADDED_PROPERTY",content,Parent %}
@@ -50,6 +51,7 @@ Liquid:
 	"FinalArray":{{FArray | json}}
 }
 ```
+{% endraw %}
 
 Output JSON:
 ```json

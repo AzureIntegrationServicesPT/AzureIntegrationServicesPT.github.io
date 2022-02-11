@@ -20,8 +20,9 @@ Input:
 	}
 }
 ```
-
+{% endraw %}
 Liquid:
+{% raw %}
 ```
 {
 	{%assign FArray= content | clear_nulls %}

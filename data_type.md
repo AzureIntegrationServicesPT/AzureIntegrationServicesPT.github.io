@@ -16,6 +16,7 @@ Input:
 ```
 
 Liquid:
+{% raw %}
 ```
 {
 	{%assign testvar = content.Test | data_type %}
@@ -26,6 +27,7 @@ Liquid:
 
 }
 ```
+{% endraw %}
 
 Output:
 ```json
